@@ -1,17 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-label="Ward Van Loo — advocaat">
-  <!-- Zegel: weegschaal (recht) waarvan balk + stam samen een kruis (geneeskunde) vormen -->
-  <circle cx="20" cy="20" r="18.5" fill="none" stroke="#C9A24A" stroke-width="1"/>
-  <circle cx="20" cy="20" r="15.5" fill="none" stroke="#C9A24A" stroke-width="0.5" opacity="0.45"/>
-  <g stroke="#C9A24A" stroke-width="1.4" stroke-linecap="round" fill="none">
-    <!-- stam -->
+  <!-- Zegel: weegschaal (recht) waarvan balk en stam samen een kruis (geneeskunde) vormen -->
+  <circle cx="20" cy="20" r="18.5" fill="none" stroke="#123A2E" stroke-width="1"/>
+  <circle cx="20" cy="20" r="15.5" fill="none" stroke="#123A2E" stroke-width="0.5" opacity="0.35"/>
+  <g stroke="#123A2E" stroke-width="1.4" stroke-linecap="round" fill="none">
     <path d="M20 9.5V30"/>
-    <!-- balk -->
     <path d="M9.5 15h21"/>
-    <!-- voet -->
     <path d="M14.5 30h11"/>
-    <!-- schalen -->
     <path d="M12 15l-3.2 6.4h6.4L12 15z" stroke-linejoin="round"/>
     <path d="M28 15l-3.2 6.4h6.4L28 15z" stroke-linejoin="round"/>
   </g>
-  <circle cx="20" cy="12.2" r="1.5" fill="#C9A24A"/>
+  <circle cx="20" cy="12.2" r="1.6" fill="#A94F2B"/>
 </svg>

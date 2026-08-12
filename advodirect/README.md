@@ -7,9 +7,22 @@ Antwerpen. Gebouwd door Digital Impression.
 
 ## Ontwerprichting
 
-**"Institutioneel Gezag"** — marineblauw, goud en crème, serif-koppen (Cormorant
-Garamond) op een sans-serif basis (Inter). Klassiek en tijdloos: de vormgeving moet
-45 jaar autoriteit uitstralen zonder gedateerd te ogen.
+**"Klinisch Vertrouwen"** — dennengroen, klei en been, met Newsreader als serif
+en Public Sans als basis.
+
+De identiteit komt uit Ward zelf, niet uit een bureau-huisstijl. Zijn cliënten zijn
+slachtoffers: mensen met pijn, vaak op leeftijd, vaak bang dat ze te weinig zullen
+krijgen. Die hebben geen luxe-uitstraling nodig maar rust en helderheid. Vandaar:
+
+- **Dennengroen `#123A2E`** — herstel en continuïteit, en het kalmeert waar
+  corporate marineblauw afstand schept.
+- **Klei `#A94F2B`** — het menselijke, warme accent; ook de kleur die de aandacht
+  naar de call-to-action trekt zonder te schreeuwen.
+- **Been `#F7F3EB`** — papier. De hele site is licht, met donkergroene vlakken als
+  rustpunten, precies omgekeerd aan een donkere "premium" site.
+- **Millimeterraster** in de hero — het ruitjesblad van een medisch dossier.
+- **Newsreader** heeft meer stam en rust dan een hoog-contrast Garamond; het leest
+  vlot op een schermgrootte die zestigplussers gebruiken.
 
 **Positionering:** letselschade-specialist, met als hoofdtroef dat Ward naast zijn
 rechtenstudie gerechtelijke geneeskunde, medische expertise, verzekeringsgeneeskunde
@@ -18,15 +31,18 @@ als rode draad door de hele site. Overige rechtstakken komen aan bod via A12 Adv
 
 ### Kleuren
 
-| Rol | Hex |
-| --- | --- |
-| Marineblauw (basis) | `#0E1C3A` |
-| Marineblauw diep | `#08122A` |
-| Goud (accent) | `#C9A24A` |
-| Crème (achtergrond) | `#FBF8F2` |
-| Beige (secties) | `#F1EBDF` |
+| Rol | Token | Hex |
+| --- | --- | --- |
+| Dennengroen (donkere vlakken) | `--pine` | `#123A2E` |
+| Dennengroen diep | `--pine-deep` | `#0B2620` |
+| Klei (accent, CTA) | `--clay` | `#A94F2B` |
+| Klei licht (accent op donker) | `--clay-light` | `#E3A07A` |
+| Been (papier) | `--bone` | `#F7F3EB` |
+| Zand (secties) | `--sand` | `#EDE5D7` |
 
-Alle tokens staan bovenaan `styles.css` in `:root`.
+Alle tokens staan bovenaan `styles.css` in `:root`. Klei is te donker om op groen te
+lezen; op donkere vlakken gebruikt de site consequent `--clay-light`. Die overrides
+staan gebundeld in één blok onderaan `styles.css`, zodat ze niet verspreid raken.
 
 ---
 
