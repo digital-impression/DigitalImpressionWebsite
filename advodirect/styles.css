@@ -4,6 +4,51 @@
    Gebouwd door Digital Impression.
    ========================================================================== */
 
+/* ==========================================================================
+   Lettertypes — lokaal gehost (geen verzoeken naar derden; relevant voor een
+   kantoor dat onder het beroepsgeheim werkt).
+   ========================================================================== */
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("assets/fonts/inter-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("assets/fonts/inter-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url("assets/fonts/inter-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-500-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: italic; font-weight: 500; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-500-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: italic; font-weight: 600; font-display: swap;
+  src: url("assets/fonts/cormorant-garamond-latin-600-italic.woff2") format("woff2");
+}
+
 :root {
   /* --- kleuren --- */
   --navy:        #0E1C3A;
@@ -161,6 +206,15 @@ h1, h2, h3, h4 { font-weight: 400; }
 .display em, .headline em, .subhead em {
   font-style: italic;
   color: var(--gold);
+}
+
+/* Cormorant gebruikt standaard oldstyle-cijfers; in cijferblokken willen we
+   uitgelijnde (lining) figures zodat getallen op één lijn staan. */
+.dossier__v, .hero__stat-n, .step__n, .tl-year, .index-item__num,
+.display, .headline, .subhead, .hero__title, .pagehero__title,
+.cta-band__title, .checker__q, .card__title, .duo__title, .tl-title {
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
 }
 .section--navy .headline, .section--deep .headline,
 .section--navy .display, .section--deep .display { color: var(--cream); }

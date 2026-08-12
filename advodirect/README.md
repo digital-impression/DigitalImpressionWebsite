@@ -117,9 +117,13 @@ Ook de e-mailadressen lopen door elkaar (`vanloo@advodirect.com` versus
 ## Technisch
 
 - Geen build-stap, geen dependencies om te installeren — de bestanden zijn direct te hosten.
-- Externe bronnen: Google Fonts (Cormorant Garamond + Inter) en Lucide-iconen via CDN.
-  Wil je volledig CDN-onafhankelijk zijn, dan kunnen de fonts en de gebruikte iconen
-  lokaal worden meegeleverd.
+- **Geen enkel verzoek naar derden.** Lettertypes (Cormorant Garamond + Inter, latin-subset)
+  en de Lucide-iconen worden lokaal meegeleverd in `assets/`. Dat is bewust: bij een
+  advocatenkantoor is het slecht te verdedigen dat het IP-adres van elke bezoeker — vaak
+  een slachtoffer dat een gevoelige pagina raadpleegt — naar Google gaat. Het scheelt
+  meteen ook een paar honderd milliseconden laadtijd.
+  De enige uitzondering is het kaartfragment op de contactpagina; wil je ook dat vermijden,
+  dan kan er een statische kaartafbeelding met een link in de plaats.
 - Responsief getest op 390px en 1440px, zonder horizontale overflow.
 - Toegankelijkheid: skip-link, zichtbare focusstijlen, `aria-expanded` op menu en FAQ,
   en respect voor `prefers-reduced-motion`.
