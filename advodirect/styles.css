@@ -191,8 +191,8 @@ h1, h2, h3, h4 { font-weight: 400; }
   color: var(--clay);
 }
 
-/* Cormorant gebruikt standaard oldstyle-cijfers; in cijferblokken willen we
-   uitgelijnde (lining) figures zodat getallen op één lijn staan. */
+/* In cijferblokken forceren we uitgelijnde (lining) figures, zodat getallen
+   als 1981 en 10 netjes op één lijn staan. */
 .dossier__v, .hero__stat-n, .step__n, .tl-year, .index-item__num,
 .display, .headline, .subhead, .hero__title, .pagehero__title,
 .cta-band__title, .checker__q, .card__title, .duo__title, .tl-title {

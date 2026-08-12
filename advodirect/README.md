@@ -133,7 +133,7 @@ Ook de e-mailadressen lopen door elkaar (`vanloo@advodirect.com` versus
 ## Technisch
 
 - Geen build-stap, geen dependencies om te installeren — de bestanden zijn direct te hosten.
-- **Geen enkel verzoek naar derden.** Lettertypes (Cormorant Garamond + Inter, latin-subset)
+- **Geen enkel verzoek naar derden.** Lettertypes (Newsreader + Public Sans, latin-subset)
   en de Lucide-iconen worden lokaal meegeleverd in `assets/`. Dat is bewust: bij een
   advocatenkantoor is het slecht te verdedigen dat het IP-adres van elke bezoeker — vaak
   een slachtoffer dat een gevoelige pagina raadpleegt — naar Google gaat. Het scheelt
