@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myster-window.be/sitemap.xml

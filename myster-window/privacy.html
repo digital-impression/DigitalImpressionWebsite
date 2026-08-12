@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacybeleid | Myster Window</title>
+<meta name="description" content="Hoe Myster Window omgaat met persoonsgegevens die via deze website worden doorgegeven." data-i18n-content="meta_desc_privacy" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://myster-window.be/privacy.html" />
+<meta name="theme-color" content="#1B2126" />
+<meta name="geo.region" content="BE-VOV" />
+<meta name="geo.placename" content="Laarne" />
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="nl_BE" />
+<meta property="og:site_name" content="Myster Window" />
+<meta property="og:title" content="Privacybeleid | Myster Window" />
+<meta property="og:description" content="Hoe Myster Window omgaat met persoonsgegevens die via deze website worden doorgegeven." />
+<meta property="og:url" content="https://myster-window.be/privacy.html" />
+<meta property="og:image" content="https://myster-window.be/assets/img/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/brand/favicon.svg" />
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="assets/css/fonts.css" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<a class="skip-link" href="#main"><span data-i18n="skip">Naar hoofdinhoud</span></a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__group">
+        <span class="topbar__item"><i data-icon="map-pin"></i><span>Ascopstraat 10, 9270 Laarne</span></span>
+        <a class="topbar__item topbar__item--hide-sm" href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+      </div>
+      <div class="topbar__group">
+        <span class="topbar__item topbar__item--hide-sm"><i data-icon="clock"></i><span data-i18n="top_hours">Ma–vr 08:00–17:00</span></span>
+        <span class="topbar__item"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="container navbar__inner">
+      <a class="brand" href="index.html" aria-label="Myster Window — home">
+        <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+        <span class="brand__text">
+          <span class="brand__name">Myster Window</span>
+          <span class="brand__sub" data-i18n="brand_sub">Ramen &amp; deuren op maat</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="ramen-en-deuren.html" data-i18n="nav_products">Ramen &amp; Deuren</a>
+        <a href="projecten.html" data-i18n="nav_projects">Projecten</a>
+        <a href="werkwijze.html" data-i18n="nav_process">Werkwijze</a>
+        <a href="over-ons.html" data-i18n="nav_about">Over ons</a>
+      </nav>
+
+      <div class="nav__actions">
+        <div class="lang" role="group" aria-label="Taal / Language">
+          <button class="lang__btn" type="button" data-lang-btn="nl" aria-pressed="true">NL</button>
+          <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn--brass btn--sm nav__cta" href="offerte.html">
+          <span data-i18n="cta_quote">Offerte aanvragen</span><i data-icon="arrow-right"></i>
+        </a>
+        <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="drawer" data-i18n-aria="aria_menu" aria-label="Menu openen">
+          <i data-icon="menu"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MOBILE DRAWER ===================== -->
+<div class="drawer" id="drawer">
+  <div class="container drawer__head">
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+      <span class="brand__text"><span class="brand__name">Myster Window</span></span>
+    </a>
+    <button class="nav__toggle" id="drawerClose" type="button" data-i18n-aria="aria_close" aria-label="Menu sluiten"><i data-icon="x"></i></button>
+  </div>
+  <div class="container drawer__body">
+    <nav class="drawer__nav" aria-label="Mobiele navigatie">
+      <a href="index.html"><span data-i18n="nav_home">Home</span><span class="idx">01</span></a>
+      <a href="ramen-en-deuren.html"><span data-i18n="nav_products">Ramen &amp; Deuren</span><span class="idx">02</span></a>
+      <a href="projecten.html"><span data-i18n="nav_projects">Projecten</span><span class="idx">03</span></a>
+      <a href="werkwijze.html"><span data-i18n="nav_process">Werkwijze</span><span class="idx">04</span></a>
+      <a href="over-ons.html"><span data-i18n="nav_about">Over ons</span><span class="idx">05</span></a>
+      <a href="offerte.html"><span data-i18n="nav_quote">Offerte</span><span class="idx">06</span></a>
+    </nav>
+    <div class="drawer__foot">
+      <div class="drawer__contact">
+        <a href="tel:+32000000000"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></a>
+        <a href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+        <span><i data-icon="map-pin"></i><span>Ascopstraat 10, 9270 Laarne</span></span>
+      </div>
+      <a class="btn btn--brass btn--block" href="offerte.html"><span data-i18n="cta_quote">Offerte aanvragen</span><i data-icon="arrow-right"></i></a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="container page-head__inner">
+      <nav class="breadcrumb" aria-label="Kruimelpad">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <span class="sep">/</span>
+        <span aria-current="page" data-i18n="foot_privacy">Privacybeleid</span>
+      </nav>
+      <h1 class="headline headline--lg"><span data-i18n="pv_title">Privacybeleid</span></h1>
+      <p class="lead" data-i18n="pv_lead">Hoe Myster Window omgaat met de gegevens die u via deze website doorgeeft.</p>
+    </div>
+  </section>
+
+  <section class="section section--paper">
+    <div class="container narrow">
+      <div class="stack">
+        <h2 class="headline headline--sm" data-i18n="pv_h1">1. Wie verwerkt uw gegevens?</h2>
+        <p class="body-text" data-i18n="pv_p1">Myster Window BV, Ascopstraat 10, 9270 Laarne, België — ondernemingsnummer BE 0798.872.895. Voor vragen over dit beleid kunt u ons bereiken via info@myster-window.be.</p>
+
+        <h2 class="headline headline--sm mt-4" data-i18n="pv_h2">2. Welke gegevens verzamelen wij?</h2>
+        <p class="body-text" data-i18n="pv_p2">Enkel de gegevens die u zelf invult in het offerteformulier of ons doormailt: naam, eventueel bedrijfsnaam, e-mailadres, telefoonnummer, de gemeente van uw project en de informatie die u over uw project deelt.</p>
+
+        <h2 class="headline headline--sm mt-4" data-i18n="pv_h3">3. Waarvoor gebruiken wij ze?</h2>
+        <p class="body-text" data-i18n="pv_p3">Uitsluitend om uw aanvraag te behandelen: contact opnemen, een opmeting inplannen en een offerte opmaken. Wij versturen geen nieuwsbrieven zonder uw toestemming en verkopen uw gegevens nooit door aan derden.</p>
+
+        <h2 class="headline headline--sm mt-4" data-i18n="pv_h4">4. Hoelang bewaren wij ze?</h2>
+        <p class="body-text" data-i18n="pv_p4">Aanvragen die niet tot een opdracht leiden, bewaren wij maximaal twee jaar. Gegevens die bij een uitgevoerde opdracht horen, bewaren wij zolang de wettelijke bewaartermijnen dat vereisen.</p>
+
+        <h2 class="headline headline--sm mt-4" data-i18n="pv_h5">5. Uw rechten</h2>
+        <p class="body-text" data-i18n="pv_p5">U hebt het recht om uw gegevens in te kijken, te laten verbeteren of te laten wissen, en om bezwaar te maken tegen de verwerking ervan. Een e-mail naar info@myster-window.be volstaat. U kunt ook klacht indienen bij de Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be).</p>
+
+        <h2 class="headline headline--sm mt-4" id="cookies" data-i18n="pv_h6">6. Cookies</h2>
+        <p class="body-text" data-i18n="pv_p6">Deze website plaatst geen tracking- of advertentiecookies. Uw taalkeuze wordt lokaal in uw browser bewaard (local storage) zodat de site u bij een volgend bezoek in dezelfde taal toont. Die informatie verlaat uw toestel niet. De lettertypes staan op onze eigen server, dus daarvoor wordt geen externe partij aangesproken. Enkel de kaart op de pagina "Over ons" wordt geladen via OpenStreetMap; daarbij kan uw IP-adres door die partij verwerkt worden.</p>
+
+        <h2 class="headline headline--sm mt-4" data-i18n="pv_h7">7. Wijzigingen</h2>
+        <p class="body-text" data-i18n="pv_p7">Wij passen dit beleid aan wanneer onze werkwijze verandert. De meest recente versie staat altijd op deze pagina.</p>
+
+        <p class="tag mt-6" data-i18n="pv_updated">Laatst bijgewerkt: augustus 2026</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+          <span class="brand__text">
+            <span class="brand__name">Myster Window</span>
+            <span class="brand__sub" data-i18n="brand_sub">Ramen &amp; deuren op maat</span>
+          </span>
+        </a>
+        <p class="footer__about" data-i18n="foot_about">Ramen en deuren op maat voor projectontwikkelaars, renovatie-aannemers en particulieren. Gevestigd in Laarne, actief in heel Oost-Vlaanderen.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=100076925214882" target="_blank" rel="noopener" aria-label="Facebook"><i data-icon="facebook"></i></a>
+          <a href="mailto:info@myster-window.be" aria-label="E-mail"><i data-icon="mail"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_nav">Navigatie</h2>
+        <ul class="footer__list">
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="ramen-en-deuren.html" data-i18n="nav_products">Ramen &amp; Deuren</a></li>
+          <li><a href="projecten.html" data-i18n="nav_projects">Projecten</a></li>
+          <li><a href="werkwijze.html" data-i18n="nav_process">Werkwijze</a></li>
+          <li><a href="over-ons.html" data-i18n="nav_about">Over ons</a></li>
+          <li><a href="offerte.html" data-i18n="nav_quote">Offerte</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_services">Aanbod</h2>
+        <ul class="footer__list">
+          <li><a href="ramen-en-deuren.html#pvc" data-i18n="foot_s1">PVC ramen</a></li>
+          <li><a href="ramen-en-deuren.html#aluminium" data-i18n="foot_s2">Aluminium ramen</a></li>
+          <li><a href="ramen-en-deuren.html#deuren" data-i18n="foot_s3">Deuren &amp; voordeuren</a></li>
+          <li><a href="ramen-en-deuren.html#schuiframen" data-i18n="foot_s4">Schuiframen</a></li>
+          <li><a href="ramen-en-deuren.html#beglazing" data-i18n="foot_s5">Beglazing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_contact">Contact</h2>
+        <div class="footer__contact">
+          <span><i data-icon="map-pin"></i><span>Ascopstraat 10<br />9270 Laarne, België</span></span>
+          <a href="tel:+32000000000"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></a>
+          <a href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+          <span><i data-icon="file-text"></i><span>BTW BE 0798.872.895</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> Myster Window BV — <span data-i18n="foot_rights">Alle rechten voorbehouden</span></p>
+      <div class="footer__legal">
+        <a href="privacy.html" data-i18n="foot_privacy">Privacybeleid</a>
+        <a href="privacy.html#cookies" data-i18n="foot_cookies">Cookies</a>
+      </div>
+      <p class="footer__credit"><span data-i18n="foot_by">Website door</span> <a href="https://digital-impression.be" target="_blank" rel="noopener">Digital Impression</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" data-i18n-aria="aria_top" aria-label="Terug naar boven"><i data-icon="arrow-up"></i></button>
+
+<div class="mobile-cta" id="mobileCta">
+  <a href="tel:+32000000000"><i data-icon="phone"></i><span data-i18n="m_call">Bellen</span></a>
+  <a href="offerte.html"><i data-icon="square-pen"></i><span data-i18n="m_quote">Offerte</span></a>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

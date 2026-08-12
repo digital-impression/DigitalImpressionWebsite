@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="PROJECT 06">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#F6F3EE"/><stop offset="52%" stop-color="#E7DFD2"/><stop offset="100%" stop-color="#BCAE99"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g5)"/>
+  <g clip-path="inset(0)"><path d="M59 861 L219 59" stroke="#FFFFFF" stroke-width="13" opacity="0.30"/><path d="M320 861 L480 59" stroke="#FFFFFF" stroke-width="13" opacity="0.25"/><path d="M580 861 L740 59" stroke="#FFFFFF" stroke-width="13" opacity="0.20"/><path d="M841 861 L1001 59" stroke="#FFFFFF" stroke-width="13" opacity="0.15"/></g>
+  <rect x="99" y="99" width="1002" height="702" fill="rgba(255,255,255,0.34)"/>
+  <rect x="99" y="99" width="1002" height="702" stroke="#1B2126" stroke-width="6" fill="none"/>
+  <line x1="433" y1="99" x2="433" y2="801" stroke="#1B2126" stroke-width="6" fill="none"/><line x1="767" y1="99" x2="767" y2="801" stroke="#1B2126" stroke-width="6" fill="none"/>
+  <rect x="89" y="801" width="1022" height="12" fill="#A87E4B" opacity=".85"/>
+  <g font-family="Inter, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600.0" y="858.42" font-size="30" font-weight="600" letter-spacing="2.4" fill="#1B2126" opacity=".72">PROJECT 06</text>
+    <text x="600.0" y="893.7141176470587" font-size="19" letter-spacing="2.9" fill="#1B2126" opacity=".45">VERVANG DOOR EIGEN FOTO</text>
+  </g>
+</svg>

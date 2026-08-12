@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vrijblijvende offerte aanvragen | Myster Window</title>
+<meta name="description" content="Vraag in drie stappen een vrijblijvende offerte aan voor ramen, deuren of schuiframen. Voor particulieren, aannemers en projectontwikkelaars." data-i18n-content="meta_desc_quote" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://myster-window.be/offerte.html" />
+<meta name="theme-color" content="#1B2126" />
+<meta name="geo.region" content="BE-VOV" />
+<meta name="geo.placename" content="Laarne" />
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="nl_BE" />
+<meta property="og:site_name" content="Myster Window" />
+<meta property="og:title" content="Offerte aanvragen | Myster Window" />
+<meta property="og:description" content="Vraag in drie stappen een vrijblijvende offerte aan voor ramen, deuren of schuiframen. Voor particulieren, aannemers en projectontwikkelaars." />
+<meta property="og:url" content="https://myster-window.be/offerte.html" />
+<meta property="og:image" content="https://myster-window.be/assets/img/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/brand/favicon.svg" />
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="assets/css/fonts.css" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<a class="skip-link" href="#main"><span data-i18n="skip">Naar hoofdinhoud</span></a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__group">
+        <span class="topbar__item"><i data-icon="map-pin"></i><span>Ascopstraat 10, 9270 Laarne</span></span>
+        <a class="topbar__item topbar__item--hide-sm" href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+      </div>
+      <div class="topbar__group">
+        <span class="topbar__item topbar__item--hide-sm"><i data-icon="clock"></i><span data-i18n="top_hours">Ma–vr 08:00–17:00</span></span>
+        <span class="topbar__item"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="container navbar__inner">
+      <a class="brand" href="index.html" aria-label="Myster Window — home">
+        <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+        <span class="brand__text">
+          <span class="brand__name">Myster Window</span>
+          <span class="brand__sub" data-i18n="brand_sub">Ramen &amp; deuren op maat</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Hoofdnavigatie">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="ramen-en-deuren.html" data-i18n="nav_products">Ramen &amp; Deuren</a>
+        <a href="projecten.html" data-i18n="nav_projects">Projecten</a>
+        <a href="werkwijze.html" data-i18n="nav_process">Werkwijze</a>
+        <a href="over-ons.html" data-i18n="nav_about">Over ons</a>
+      </nav>
+
+      <div class="nav__actions">
+        <div class="lang" role="group" aria-label="Taal / Language">
+          <button class="lang__btn" type="button" data-lang-btn="nl" aria-pressed="true">NL</button>
+          <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn--brass btn--sm nav__cta" href="offerte.html">
+          <span data-i18n="cta_quote">Offerte aanvragen</span><i data-icon="arrow-right"></i>
+        </a>
+        <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="drawer" data-i18n-aria="aria_menu" aria-label="Menu openen">
+          <i data-icon="menu"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MOBILE DRAWER ===================== -->
+<div class="drawer" id="drawer">
+  <div class="container drawer__head">
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+      <span class="brand__text"><span class="brand__name">Myster Window</span></span>
+    </a>
+    <button class="nav__toggle" id="drawerClose" type="button" data-i18n-aria="aria_close" aria-label="Menu sluiten"><i data-icon="x"></i></button>
+  </div>
+  <div class="container drawer__body">
+    <nav class="drawer__nav" aria-label="Mobiele navigatie">
+      <a href="index.html"><span data-i18n="nav_home">Home</span><span class="idx">01</span></a>
+      <a href="ramen-en-deuren.html"><span data-i18n="nav_products">Ramen &amp; Deuren</span><span class="idx">02</span></a>
+      <a href="projecten.html"><span data-i18n="nav_projects">Projecten</span><span class="idx">03</span></a>
+      <a href="werkwijze.html"><span data-i18n="nav_process">Werkwijze</span><span class="idx">04</span></a>
+      <a href="over-ons.html"><span data-i18n="nav_about">Over ons</span><span class="idx">05</span></a>
+      <a href="offerte.html"><span data-i18n="nav_quote">Offerte</span><span class="idx">06</span></a>
+    </nav>
+    <div class="drawer__foot">
+      <div class="drawer__contact">
+        <a href="tel:+32000000000"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></a>
+        <a href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+        <span><i data-icon="map-pin"></i><span>Ascopstraat 10, 9270 Laarne</span></span>
+      </div>
+      <a class="btn btn--brass btn--block" href="offerte.html"><span data-i18n="cta_quote">Offerte aanvragen</span><i data-icon="arrow-right"></i></a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ===================== PAGE HEAD ===================== -->
+  <section class="page-head">
+    <div class="container page-head__inner">
+      <nav class="breadcrumb" aria-label="Kruimelpad">
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <span class="sep">/</span>
+        <span aria-current="page" data-i18n="nav_quote">Offerte</span>
+      </nav>
+      <span class="eyebrow"><span data-i18n="of_eyebrow">Vrijblijvende offerte</span></span>
+      <h1 class="headline headline--xl"><span data-i18n="of_title">Vertel ons wat u <em>nodig</em> heeft</span></h1>
+      <p class="lead" data-i18n="of_lead">Drie korte stappen. Hoe meer u invult, hoe scherper wij kunnen inschatten — maar ook met een minimum aan info nemen we contact op.</p>
+    </div>
+  </section>
+
+  <!-- ===================== FORMULIER ===================== -->
+  <section class="section section--paper">
+    <div class="container contact-layout">
+
+      <div class="form-wrap" data-reveal>
+        <div class="form-alert form-alert--ok" id="formSuccess">
+          <i data-icon="check-circle"></i>
+          <div>
+            <strong data-i18n="of_ok_t">Bedankt voor uw aanvraag</strong>
+            <p data-i18n="of_ok_x">Wij bekijken uw vraag en nemen zo snel mogelijk contact met u op.</p>
+          </div>
+        </div>
+        <div class="form-alert form-alert--err" id="formError">
+          <i data-icon="alert-circle"></i>
+          <div>
+            <strong data-i18n="of_err_t">Verzenden is niet gelukt</strong>
+            <p data-i18n="of_err_x">Probeer het opnieuw, of mail ons rechtstreeks op info@myster-window.be.</p>
+          </div>
+        </div>
+
+        <div class="progress" aria-hidden="true">
+          <div class="progress__step is-active">
+            <span class="progress__bar"></span>
+            <span class="progress__label" data-i18n="of_step1">1 · Project</span>
+          </div>
+          <div class="progress__step">
+            <span class="progress__bar"></span>
+            <span class="progress__label" data-i18n="of_step2">2 · Wat u zoekt</span>
+          </div>
+          <div class="progress__step">
+            <span class="progress__bar"></span>
+            <span class="progress__label" data-i18n="of_step3">3 · Contact</span>
+          </div>
+        </div>
+
+        <form id="quoteForm" novalidate
+              data-endpoint="REPLACE_WITH_FORM_ENDPOINT"
+              data-fallback-email="info@myster-window.be">
+
+          <!-- honeypot -->
+          <div class="hp" aria-hidden="true">
+            <label for="website">Laat dit veld leeg</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <!-- STAP 1 -->
+          <div class="fieldset is-active">
+            <div class="choices-field field">
+              <label id="lbl-type"><span data-i18n="of_q_type">Ik vraag aan als</span> <span class="req">*</span></label>
+              <div class="choices choices--2" role="radiogroup" aria-labelledby="lbl-type">
+                <label class="choice">
+                  <input type="radio" name="aanvrager" value="particulier" id="type-particulier" required />
+                  <span><i data-icon="home"></i><span data-i18n="of_type1">Particulier</span></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="aanvrager" value="professional" id="type-project" required />
+                  <span><i data-icon="building"></i><span data-i18n="of_type2">Aannemer of ontwikkelaar</span></span>
+                </label>
+              </div>
+              <p class="field__error"></p>
+            </div>
+
+            <div class="choices-field field mt-4">
+              <label id="lbl-werk"><span data-i18n="of_q_work">Om welk soort werk gaat het?</span> <span class="req">*</span></label>
+              <div class="choices choices--3" role="radiogroup" aria-labelledby="lbl-werk">
+                <label class="choice">
+                  <input type="radio" name="soortwerk" value="nieuwbouw" required />
+                  <span><i data-icon="layers"></i><span data-i18n="of_work1">Nieuwbouw</span></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="soortwerk" value="renovatie" required />
+                  <span><i data-icon="hammer"></i><span data-i18n="of_work2">Renovatie</span></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="soortwerk" value="vervanging" required />
+                  <span><i data-icon="wrench"></i><span data-i18n="of_work3">Ramen vervangen</span></span>
+                </label>
+              </div>
+              <p class="field__error"></p>
+            </div>
+
+            <div class="field-grid field-grid--2 mt-4">
+              <div class="field">
+                <label for="gemeente"><span data-i18n="of_q_city">Gemeente van het project</span> <span class="req">*</span></label>
+                <input type="text" id="gemeente" name="gemeente" required autocomplete="address-level2"
+                       data-i18n-placeholder="of_ph_city" placeholder="bv. Laarne" />
+                <p class="field__error"></p>
+              </div>
+              <div class="field">
+                <label for="timing"><span data-i18n="of_q_timing">Wanneer wilt u starten?</span></label>
+                <div class="field__select-wrap">
+                  <select id="timing" name="timing">
+                    <option value="" data-i18n="of_opt_choose">Maak een keuze</option>
+                    <option value="zo snel mogelijk" data-i18n="of_timing1">Zo snel mogelijk</option>
+                    <option value="binnen 3 maanden" data-i18n="of_timing2">Binnen 3 maanden</option>
+                    <option value="binnen 6 maanden" data-i18n="of_timing3">Binnen 6 maanden</option>
+                    <option value="later / nog te bepalen" data-i18n="of_timing4">Later of nog te bepalen</option>
+                  </select>
+                  <i data-icon="chevron-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STAP 2 -->
+          <div class="fieldset">
+            <div class="choices-field field">
+              <label id="lbl-prod"><span data-i18n="of_q_products">Waarvoor heeft u een prijs nodig?</span></label>
+              <div class="choices choices--2" role="group" aria-labelledby="lbl-prod">
+                <label class="choice">
+                  <input type="checkbox" name="product" value="ramen" />
+                  <span><i data-icon="home"></i><span data-i18n="of_p1">Ramen</span></span>
+                </label>
+                <label class="choice">
+                  <input type="checkbox" name="product" value="deuren" />
+                  <span><i data-icon="lock"></i><span data-i18n="of_p2">Deuren of voordeur</span></span>
+                </label>
+                <label class="choice">
+                  <input type="checkbox" name="product" value="schuiframen" />
+                  <span><i data-icon="move-horizontal"></i><span data-i18n="of_p3">Schuiframen</span></span>
+                </label>
+                <label class="choice">
+                  <input type="checkbox" name="product" value="beglazing" />
+                  <span><i data-icon="layers"></i><span data-i18n="of_p4">Alleen beglazing</span></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="choices-field field mt-4">
+              <label id="lbl-mat"><span data-i18n="of_q_material">Voorkeur qua materiaal</span></label>
+              <div class="choices choices--3" role="radiogroup" aria-labelledby="lbl-mat">
+                <label class="choice">
+                  <input type="radio" name="materiaal" value="pvc" />
+                  <span><span data-i18n="of_m1">PVC</span></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="materiaal" value="aluminium" />
+                  <span><span data-i18n="of_m2">Aluminium</span></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="materiaal" value="advies" />
+                  <span><span data-i18n="of_m3">Nog geen idee</span></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field-grid field-grid--2 mt-4">
+              <div class="field">
+                <label for="aantal"><span data-i18n="of_q_count">Aantal ramen en deuren (bij benadering)</span></label>
+                <input type="text" id="aantal" name="aantal" data-i18n-placeholder="of_ph_count" placeholder="bv. 12 ramen en 2 deuren" />
+              </div>
+              <div class="field">
+                <label for="budget"><span data-i18n="of_q_budget">Budgetindicatie</span></label>
+                <div class="field__select-wrap">
+                  <select id="budget" name="budget">
+                    <option value="" data-i18n="of_opt_choose">Maak een keuze</option>
+                    <option value="&lt; 10.000" data-i18n="of_b1">Minder dan € 10.000</option>
+                    <option value="10.000 - 25.000" data-i18n="of_b2">€ 10.000 – € 25.000</option>
+                    <option value="25.000 - 50.000" data-i18n="of_b3">€ 25.000 – € 50.000</option>
+                    <option value="&gt; 50.000" data-i18n="of_b4">Meer dan € 50.000</option>
+                    <option value="onbekend" data-i18n="of_b5">Liever nog niet zeggen</option>
+                  </select>
+                  <i data-icon="chevron-down"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="field mt-4">
+              <label for="bericht"><span data-i18n="of_q_message">Extra info over uw project</span></label>
+              <textarea id="bericht" name="bericht" data-i18n-placeholder="of_ph_message" placeholder="Beschrijf kort uw project. Heeft u plannen of een meetstaat? Vermeld het hier — wij vragen ze op na uw aanvraag."></textarea>
+              <p class="field__hint" data-i18n="of_hint_files">Bestanden kunt u ons na uw aanvraag doormailen.</p>
+            </div>
+          </div>
+
+          <!-- STAP 3 -->
+          <div class="fieldset">
+            <div class="field-grid field-grid--2">
+              <div class="field">
+                <label for="naam"><span data-i18n="of_q_name">Naam</span> <span class="req">*</span></label>
+                <input type="text" id="naam" name="naam" required autocomplete="name" data-i18n-placeholder="of_ph_name" placeholder="Voor- en achternaam" />
+                <p class="field__error"></p>
+              </div>
+              <div class="field">
+                <label for="bedrijf"><span data-i18n="of_q_company">Bedrijf</span></label>
+                <input type="text" id="bedrijf" name="bedrijf" autocomplete="organization" data-i18n-placeholder="of_ph_company" placeholder="Optioneel" />
+              </div>
+              <div class="field">
+                <label for="email"><span data-i18n="of_q_email">E-mailadres</span> <span class="req">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="naam@voorbeeld.be" />
+                <p class="field__error"></p>
+              </div>
+              <div class="field">
+                <label for="telefoon"><span data-i18n="of_q_phone">Telefoon</span> <span class="req">*</span></label>
+                <input type="tel" id="telefoon" name="telefoon" required autocomplete="tel" placeholder="+32 ..." />
+                <p class="field__error"></p>
+              </div>
+            </div>
+
+            <div class="field mt-4">
+              <label class="check">
+                <input type="checkbox" name="privacy" required />
+                <span data-i18n="of_privacy">Ik ga ermee akkoord dat Myster Window mijn gegevens gebruikt om deze aanvraag te behandelen. Zie het <a href="privacy.html">privacybeleid</a>.</span>
+              </label>
+              <p class="field__error"></p>
+            </div>
+
+            <div class="form-note">
+              <i data-icon="lock"></i>
+              <span data-i18n="of_note">Uw gegevens worden enkel gebruikt om uw aanvraag te behandelen en worden nooit doorverkocht.</span>
+            </div>
+          </div>
+
+          <div class="form-nav">
+            <button class="btn btn--ghost" type="button" id="formPrev" hidden><span data-i18n="of_prev">Vorige</span></button>
+            <button class="btn btn--dark" type="button" id="formNext"><span data-i18n="of_next">Volgende stap</span><i data-icon="arrow-right"></i></button>
+            <button class="btn btn--brass" type="submit" id="formSubmit" hidden><span data-i18n="of_submit">Aanvraag versturen</span><i data-icon="arrow-right"></i></button>
+          </div>
+        </form>
+      </div>
+
+      <aside class="aside-panel" data-reveal data-reveal-delay="1">
+        <h3 data-i18n="of_side_t">Wat er daarna gebeurt</h3>
+        <ul>
+          <li><i data-icon="phone"></i><span data-i18n="of_side_1">Wij nemen contact op om uw aanvraag te overlopen.</span></li>
+          <li><i data-icon="ruler"></i><span data-i18n="of_side_2">Is het project concreet, dan plannen we een opmeting ter plaatse.</span></li>
+          <li><i data-icon="file-text"></i><span data-i18n="of_side_3">U ontvangt een gedetailleerde offerte per raam of per fase.</span></li>
+          <li><i data-icon="check-circle"></i><span data-i18n="of_side_4">Geen verplichting: u beslist rustig verder.</span></li>
+        </ul>
+        <div class="aside-panel__foot">
+          <p class="small" data-i18n="of_side_call">Liever meteen bellen?</p>
+          <a class="btn btn--light btn--block mt-2" href="tel:+32000000000"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></a>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img class="brand__mark" src="assets/brand/logo-mark.svg" alt="" width="34" height="34" />
+          <span class="brand__text">
+            <span class="brand__name">Myster Window</span>
+            <span class="brand__sub" data-i18n="brand_sub">Ramen &amp; deuren op maat</span>
+          </span>
+        </a>
+        <p class="footer__about" data-i18n="foot_about">Ramen en deuren op maat voor projectontwikkelaars, renovatie-aannemers en particulieren. Gevestigd in Laarne, actief in heel Oost-Vlaanderen.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=100076925214882" target="_blank" rel="noopener" aria-label="Facebook"><i data-icon="facebook"></i></a>
+          <a href="mailto:info@myster-window.be" aria-label="E-mail"><i data-icon="mail"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_nav">Navigatie</h2>
+        <ul class="footer__list">
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="ramen-en-deuren.html" data-i18n="nav_products">Ramen &amp; Deuren</a></li>
+          <li><a href="projecten.html" data-i18n="nav_projects">Projecten</a></li>
+          <li><a href="werkwijze.html" data-i18n="nav_process">Werkwijze</a></li>
+          <li><a href="over-ons.html" data-i18n="nav_about">Over ons</a></li>
+          <li><a href="offerte.html" data-i18n="nav_quote">Offerte</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_services">Aanbod</h2>
+        <ul class="footer__list">
+          <li><a href="ramen-en-deuren.html#pvc" data-i18n="foot_s1">PVC ramen</a></li>
+          <li><a href="ramen-en-deuren.html#aluminium" data-i18n="foot_s2">Aluminium ramen</a></li>
+          <li><a href="ramen-en-deuren.html#deuren" data-i18n="foot_s3">Deuren &amp; voordeuren</a></li>
+          <li><a href="ramen-en-deuren.html#schuiframen" data-i18n="foot_s4">Schuiframen</a></li>
+          <li><a href="ramen-en-deuren.html#beglazing" data-i18n="foot_s5">Beglazing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="foot_contact">Contact</h2>
+        <div class="footer__contact">
+          <span><i data-icon="map-pin"></i><span>Ascopstraat 10<br />9270 Laarne, België</span></span>
+          <a href="tel:+32000000000"><i data-icon="phone"></i><span>+32 XX XX XX XX</span></a>
+          <a href="mailto:info@myster-window.be"><i data-icon="mail"></i><span>info@myster-window.be</span></a>
+          <span><i data-icon="file-text"></i><span>BTW BE 0798.872.895</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> Myster Window BV — <span data-i18n="foot_rights">Alle rechten voorbehouden</span></p>
+      <div class="footer__legal">
+        <a href="privacy.html" data-i18n="foot_privacy">Privacybeleid</a>
+        <a href="privacy.html#cookies" data-i18n="foot_cookies">Cookies</a>
+      </div>
+      <p class="footer__credit"><span data-i18n="foot_by">Website door</span> <a href="https://digital-impression.be" target="_blank" rel="noopener">Digital Impression</a></p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" data-i18n-aria="aria_top" aria-label="Terug naar boven"><i data-icon="arrow-up"></i></button>
+
+<div class="mobile-cta" id="mobileCta">
+  <a href="tel:+32000000000"><i data-icon="phone"></i><span data-i18n="m_call">Bellen</span></a>
+  <a href="offerte.html"><i data-icon="square-pen"></i><span data-i18n="m_quote">Offerte</span></a>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
